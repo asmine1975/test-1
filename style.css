@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(17, 15, 31);
+
+}
+
+.container-nav{
+    min-width: 50vh;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: monospace;
+
+}
+.btn-nav{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    
+}
+nav{
+    color: aliceblue;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.text-sec-1 {
+    text-align: center;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+.text-sec-1 h1{
+    font-size: 50px;
+    z-index: 1;
+    font-family: monospace;
+    
+}
+.text-sec-1 p{
+    font-size: 15px;
+    font-family: monospace;
+}
+.gambar-section1 img{
+    z-index: 0;
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    filter: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7));
+}
+section{
+    min-width: 40vh;
+}
+.gambar-section1{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 50px;
+}
+
+.container-sec1{
+    color: aliceblue;
+    min-width: 50vh;
+    min-height: 70vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(10, 3, 27, 0.788), rgb(17, 15, 31)), url(walpaper-satu.jpg);
+}
+
+.text-sec2{
+    color: white;
+    display: flex;
+    justify-content:center;
+    font-family: monospace;
+    margin-top: 80px;
+}
+
+.mobile-legend{
+    background-color: aliceblue;
+    height: 150px;
+    width: 130px;
+    border-radius: 15px;
+    background-image: url(mobile-legend.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.text-ml{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px;
+}
+
+.pubgm{
+    background-color: aliceblue;
+    height: 150px;
+    width: 130px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(pubgm.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.text-pubg{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px;
+}
+.free-fire{
+    background-color: aliceblue;
+    height: 150px;
+    width: 130px;
+    border-radius: 15px;
+    background-image: url(ff.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.text-ff{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px;
+}
+.game1{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.cod{
+    background-color: aliceblue;
+    height: 150px;
+    width: 130px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(codm.png);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.text-cod{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px;
+}
+
+.genshin{
+    background-color: aliceblue;
+    height: 150px;
+    width: 130px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(gensihn.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.text-genshin{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px;
+}
+.lol{
+    background-color: aliceblue;
+    height: 150px;
+    width: 130px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(lol.png);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.text-lol{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px;
+}
+.game2{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.container-sec2{
+    background-image: url();
+    background-size: cover;
+}
